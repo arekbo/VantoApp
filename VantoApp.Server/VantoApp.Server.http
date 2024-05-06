@@ -1,0 +1,6 @@
+@VantoApp.Server_HostAddress = http://localhost:5195
+
+GET {{VantoApp.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

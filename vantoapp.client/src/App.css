@@ -1,0 +1,71 @@
+﻿#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #F2F2F2;
+}
+
+tr:nth-child(odd) {
+    background: #FFF;
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/*
+    ID CARD
+*/
+
+#user-card {
+    flex-grow: 1;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px;
+    padding: 16px 0px 0px 16px;
+}
+
+.user-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #E0DDDD;
+    padding: 0 3px 3px;
+    max-width: 375px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.picture-item {
+    display: inline-block;
+}
+
+.user-picture {
+    border: 3px solid white;
+    border-radius: 10px 10px 10px 10px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.user-picture-thumb {
+    border: 3px solid white;
+    border-radius: 2px 2px 2px 2px;
+    max-width: 50%;
+    object-fit: cover;
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+    gap: 225px;
+}
+
+.info-container2 {
+    display: inline-block;
+    position: absolute;
+}
