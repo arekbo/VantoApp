@@ -485,7 +485,7 @@ const App = () => {
                     <Col md={2}>
                     </Col>
                     <Col md={3}>
-                        <Button variant="secondary" size="sm" onClick={handleImportUsers}><MdCloudDownload /> Zaimportuj członka zespołu</Button>
+                        <Button variant="secondary" size="sm" onClick={handleImportUsers}><MdCloudDownload /> Zaimportuj 5 członków zespołu</Button>
                     </Col>
                     <Col md={3}>
                         <Button variant="secondary" size="sm" onClick={showUserAddDetail}><MdAdd /> Dodaj członka zespołu</Button>
@@ -501,8 +501,8 @@ const App = () => {
                         <th onClick={() => sorting2("numerTelefonu")}>Numer Telefonu</th>
                         <th onClick={() => sorting2("dataUtworzenia")}>Data Utworzenia</th>
                         <th onClick={() => sorting2("status")}>Status</th>
-                        <th>Action</th>
-                        <th>Action2</th>
+                        <th>Edytuj</th>
+                        <th>Blokuj/Odblokuj</th>
                     </tr>
                 </thead>
                 <tbody>
